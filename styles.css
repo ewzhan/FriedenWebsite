@@ -69,7 +69,7 @@ nav.scrolled {
 
 /* Hover css */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('image/newHome.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('newHome.png');
   background-size: cover;
   background-position: center;
   position: relative;

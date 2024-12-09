@@ -13,7 +13,10 @@ html, body {
 img, video, iframe {
   height: auto;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 /* Navigation */
 nav {
   position: fixed;
@@ -319,7 +322,41 @@ nav.scrolled {
 .thumbnail:hover {
   transform: scale(1.05);
 }
-
+.brochure{
+  background-color: #29425c;
+  background-image: url(bf6b6200-4d39-4f77-a434-8f65069ab5f1.jpeg);
+  width: 100%;
+  height: 237px;
+  text-align: center;
+  position: relative;
+  object-fit: fill;
+  background-position: center;
+  position: relative;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-contact-gallery {
+  width: 30%;
+  height: 5vw;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2vw;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(120deg, #4a5050, #213c57);
+  color: white;
+  transition: 0.2s linear;
+  opacity: 0.95;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  margin-left: 35%;
+  margin-right: 35%;
+  justify-content: center;
+  justify-items: center;
+}
 /* Popup container */
 .popup {
   display: none; /* Hidden by default */
@@ -575,6 +612,10 @@ nav.scrolled {
 }
 .contact-information .phone{
  display: flex;
+
+}
+.phone img{
+  width: 50px;
 }
 .contact-form h2 {
   font-size: 1.8rem;
@@ -609,7 +650,6 @@ nav.scrolled {
   background-color: #315a83;
   color: white;
   border: none;
-  width: 50%;
   line-height: 20px;
   padding: 0.8rem;
   font-size: 1rem;
@@ -820,6 +860,9 @@ footer {
   body {
     overflow-x: hidden;
   }
+  nav{
+    display: none;
+  }
   
   /* Ensure no horizontal scrolling */
   .container, .hero, .frieden-section {
@@ -904,6 +947,24 @@ footer {
 
 .property-grid {
   grid-template-columns: 1fr;
+}
+
+.brochure{
+  background-color: #29425c;
+  width: 100%;
+  height: auto;
+  background-image: none;
+}
+
+.btn-contact-gallery {
+  width: 50%;
+  height: 13vw;
+  font-size: 5vw;
+  border-radius: 20px;
+  border: none;
+  opacity: 1;
+  margin: 0 auto;
+  background-image: linear-gradient(120deg, #213c57, #213c57);
 }
 
 }
@@ -1080,5 +1141,21 @@ footer {
   padding: 3px;
   object-fit: fill;
 }
+.brochure{
+  background-color: #29425c;
+  width: 100%;
+  height: auto;
+  background-image: none;
+}
 
+.btn-contact-gallery {
+  width: 50%;
+  height: 13vw;
+  font-size: 5vw;
+  border-radius: 20px;
+  border: none;
+  opacity: 1;
+  margin: 0 auto;
+  background-image: linear-gradient(120deg, #213c57, #213c57);
+}
 }
